@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="recipe.css">
+    <title>Recipes | Recipe Delight</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <header>
+      <div class="nav">
+          <img class="logo" src="logo.png" alt="logo" >
+        <div class="navTitle">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="recipe.html">Recipes</a>
+          <a href="category.html">Category</a>
+        </div>
+      </div>
+     </header>
+      <hr>
+    <!-- Recipe Hero Section -->
+    <section class="hero">
+        <div class="breadcrumb">
+          <a href="index.html">Recipe Delight</a> > <a href="recipes.html">Recipes</a>
+        </div>
+        <h1>Recipes</h1>
+        <p>We’ve organized these recipes every way we could think of so you don’t have to! Dietary restrictions, weeknight dinners, meal prep recipes, some of our most tried-and-true... no matter how you browse, we’re sure you’ll find just what you were looking for.</p>
+        <div class="search-bar">
+          <input type="text" placeholder="Search by keyword" aria-label="Search by keyword">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </section>
+
+    <!-- Top Rated Recipes -->
+    <section class="top-rated-recipes">
+        <h1><i class="fa-solid fa-trophy"></i> Top Rated Recipes</h1>
+        <p>Out of all the many recipes, these are our shining stars – the recipes we come back to again and again (and again).</p>
+        <div class="recipe-grid" id="top-rated-recipes">
+            <!-- Dynamic content will be injected here -->
+        </div>
+        <button class="view-all-btn" onclick="viewAllRecipes()">+ View All Recipes</button>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="follow">
+                <h3>Follow Us</h3>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="signUp">
+                <h2>Sign Up for Email Updates</h2>
+                <input type="text" id="first name" placeholder="First Name" aria-label="First Name">
+                <input type="email" id="email" placeholder="Email" aria-label="Email">
+                <button onclick="subscribeToNewsletter()">Go</button>
+                <p id="feedbackMessage" class="feedback-message"></p> <!-- Feedback message -->
+            </div>
+        </div>
+        <p>&copy; 2024 Recipe Delight. All Rights Reserved.</p>
+    </footer>
+
+    <script src="recipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+/* General Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: whitesmoke;
+  }
+  /* Nav Bar */
+.navBar img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 250px;
+    bottom: 10px;
+  }
+  .navBar {
+   display: flex;
+   justify-content: space-evenly;
+   
+  }
+  .icons{
+    display: flex;
+  }
+  .navBar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 65px;
+    position: relative;
+    left: 100px;
+
+  }
+  hr{
+   position: relative;
+   bottom: 35px;
+  }
+  header navBar a:hover {
+    color: #7c4b7f;
+  }
+  .icons button{
+    font-size: 1.2rem;
+    color: #7c4b7f;
+    background: none;
+    border: none;
+    position: relative;
+    left: 100px;
+    
+  }
+  /* welcome */
+  .welcome-section{
+    height: 250px;
+    position: relative;
+    bottom: 45px;
+    background-color: #6a2c50;
+    color: #fff;
+    padding: 30px ;
+    text-align: center;
+  }
+  .welcome-section .breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .welcome-section .breadcrumb a {
+    color: #f0e1d2;
+    text-decoration: none;
+  }
+ .welcome-content{
+  margin-top: 40px;
+ }
+  .welcome-section button{
+    height: 50px;
+    width: 180px;
+    background-color: #f4c04c;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .welcome-section button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  /* Our Mission Section  */
+  .mission-section{
+    text-align: center;
+    padding: 20px;
+  }
+  .Choose-Story{
+    display: flex;
+    padding: 20px;
+  }
+  .why-choose-section h2{
+    text-align: center;
+  }
+  .why-choose-section{
+    padding: 20px;
+    width: 50%;
+  }
+  .story-section{
+    padding: 20px;
+    text-align: justify;
+    width: 50%;
+  }
+  .story-section h2{
+    text-align: center;
+  }
+  .feedback-section{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .feedback-section a{
+     text-decoration: none;
+     font-weight: 800;
+     color: #6a2c50;
+  }
+
+  /* Footer */
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    color: white;
+    background-color: #6a2c50;
+  }
+  .footer h3{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .follow{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .follow i{
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px; 
+  }
+  .signUp{
+    margin-top: 20px;
+  }
+  .signUp h2{
+    text-align: center;
+  }
+  .signUp button{
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: #e8b03d;
+  }
+  .signUp input{
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px ;
+    font-size: 1rem;
+  }
+  footer p{
+    text-align: center;
+  }  
+  .signup-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.signup-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.signup-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

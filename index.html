@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Recipe Delight</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav">
+            <img class="logo" src="logo.png" alt="logo">
+            <div class="navTitle">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="recipe.html">Recipes</a>
+                <a href="category.html">Category</a>
+        
+            </div>
+        </div>
+    </header>
+    <hr>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="tagline">
+            Your one-stop destination for <span>Delicious Recipes.</span>
+        </div>
+        <div class="recipe-grid">
+   
+            <div class="recipe-card">
+             <div class="image"> <img src="breakfast.jpeg" alt="image" ></div>
+               <p class="category-label"> Break Fast</p>
+            </div>
+       
+             
+            <div class="recipe-card">
+             <div class="image"><img src="lunch.jpeg" alt="image" ></div>
+               <p class="category-label">Lunch</p>
+            </div>
+       
+            <div class="recipe-card">
+               <div class="image"><img src="fast food.jpeg" alt="image" ></div>
+               <p class="category-label">Fast Food</p>
+            </div>
+       
+            <div class="recipe-card">
+             <div class="image"><img src="dinner.jpeg" alt="image" ></div>
+               <p class="category-label">Dinner</p>
+            </div>
+       
+           </div>
+          
+    
+    <!-- Search Bar -->
+    <div class="searchContainment">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search our recipes">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <span class="or-text">or</span>
+        <button class="view-all-btn" > <a href="recipe.html">+ VIEW ALL RECIPES</a></button>
+    </div>
+
+</div>
+    <!-- Latest Recipe -->
+    <h1 class="h1">The Latest and Greatest</h1>
+    <div class="latestRecipe">
+        <!-- Dynamically populated by JavaScript -->
+    </div>
+
+    <!-- Recipe Categories -->
+    <div class="categories">
+        <div class="vegetarian category-card">Vegetarian</div>
+        <div class="seafood category-card">Seafood</div>
+        <div class="breakfast category-card">Breakfast</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="follow">
+                <h3>Follow Us</h3>
+                <a href="https://instagram.com" ><i class="fa-brands fa-instagram" ></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="signUp">
+                <h2>Sign Up for Email Updates</h2>
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="email" placeholder="Email">
+                <button>Go</button>
+            </div>
+        </div>
+        <p>&copy; 2024 Recipe Delight. All Rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

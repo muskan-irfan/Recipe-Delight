@@ -1,0 +1,269 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+  line-height: 1.6;
+  background-color: #fafafa;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Navbar */
+  .logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 250px;
+    bottom: 10px;
+  }
+  .nav {
+   display: flex;
+   justify-content: space-evenly;
+   
+  }
+  .navTitle{
+    display: flex;
+  }
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 65px;
+    position: relative;
+    left: 100px;
+
+  }
+  hr{
+   position: relative;
+   bottom: 35px;
+  }
+  header nav a:hover {
+    color: #7c4b7f;
+  }
+  .navTitle button{
+    font-size: 1.2rem;
+    color: #7c4b7f;
+    background: none;
+    border: none;
+    position: relative;
+    left: 100px;
+    
+  }
+  /* Hero Section */
+  .hero {
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+    background-color: #5b2245;
+    color: #fff;
+    padding: 3rem 1rem;
+  }
+  
+  .hero .breadcrumb {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .breadcrumb a {
+    color: #f0e1d2;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 0.8rem;
+    background-color: #f4e2d8;
+    color: #5b2245;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+  }
+
+/* Section Container */
+.top-rated-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Section Heading */
+.top-rated-recipes h1 i{
+  color: #e8b03d;
+}
+.top-rated-recipes{
+  text-align: center;
+}
+.top-rated-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6b3f76; /* Purple theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.top-rated-section p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Recipe Grid */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 80px;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.recipe-card h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.recipe-card h3:hover {
+  color: #6b3f76;
+}
+
+
+.recipe-card .details {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* View All Recipes Button */
+.view-all-btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background-color: #6b3f76;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.view-all-btn:hover {
+  background-color: #552b5d;
+}
+ /* Footer */
+ .footer{
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  color: white;
+  background-color: #6a2c50;
+}
+.footer h3{
+  font-weight: bold;
+  font-size: 30px;
+}
+.follow{
+  display: flex;
+  height: 100px;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.follow i{
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 30px; 
+}
+.signUp{
+  margin-top: 20px;
+}
+.signUp h2{
+  text-align: center;
+}
+.signUp button{
+  height: 45px;
+  width: 45px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #e8b03d;
+}
+.signUp input{
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px ;
+  font-size: 1rem;
+}
+footer p{
+  text-align: center;
+}
